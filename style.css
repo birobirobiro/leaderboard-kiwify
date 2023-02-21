@@ -144,12 +144,12 @@ section li {
   border-radius: 1rem;
   gap: 1rem;
   padding: 1rem;
+  width: 100%;
+  transition: background-color 0.3s;
 }
 
-section li {
-  display: flex;
-  align-items: center;
-  width: 100%;
+section li:hover {
+  background-color: hsl(164, 47%, 25%);
 }
 
 section li span:first-child {
