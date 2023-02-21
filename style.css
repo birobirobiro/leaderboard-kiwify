@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: 'Mukta Mahee', sans-serif;
+  font-family: "Mukta Mahee", sans-serif;
 
   background: hsl(120, 100%, 5%);
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
   height: 100vh;
   overflow-x: hidden;
 
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 header {
@@ -34,7 +34,6 @@ header img {
   width: 20rem;
 }
 
-.container,
 main {
   display: flex;
   flex-direction: column;
@@ -48,15 +47,15 @@ main {
   align-items: center;
   justify-content: center;
   width: 50%;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 main ul {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: center;
   list-style: none;
+  width: 100%;
   position: relative;
 }
 
@@ -67,7 +66,7 @@ main li {
   justify-content: center;
   text-align: center;
   gap: 0.15rem;
-  margin: 3.5rem;
+  margin: 5rem;
 }
 
 main li img {
@@ -75,7 +74,7 @@ main li img {
   height: 7.5rem;
   border-radius: 50%;
   padding: 0.1rem;
-  border: 0.2rem solid #03B169;
+  border: 0.2rem solid #03b169;
   transition: scale 0.3s;
 }
 
@@ -95,12 +94,12 @@ main li:nth-child(2) {
 }
 
 main li p {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
 main li span {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 main #crown {
@@ -111,7 +110,7 @@ main #crown {
 }
 
 main .revenue {
-  color: #03B169;
+  color: #03b169;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -127,12 +126,14 @@ section {
 
 section span {
   padding-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 section ul {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  width: 25rem;
 }
 
 section li {
@@ -145,64 +146,38 @@ section li {
   padding: 1rem;
 }
 
-section li div {
+section li {
   display: flex;
+  align-items: center;
   width: 100%;
-  opacity: 0.8;
 }
 
 section li span:first-child {
   font-size: 1rem;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 section li img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 50%;
 }
 
 section li p {
   text-align: center;
   min-width: 10rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 section li span:last-child {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #03B169;
+  color: #03b169;
 }
 
-@media (max-width: 20rem) {
-  .container main {
-    margin: unset;
-  }
-
-  header img {
-    width: 15rem;
-  }
-
-  main {
-    padding-bottom: 2.5rem;
-  }
-
-  main li {
-    margin: 0;
-    padding: 0 4rem;
-    display: flex;
-  }
-
-  main li img {
-    width: 5rem;
-    height: 5rem;
-  }
-
-  main li:nth-child(2) {
-    top: -1.5rem;
-    left: 50%;
-    transform: translatex(-50%);
-    width: 6rem;
-    height: 6rem;
+@media (min-width: 600px) {
+  section ul {
+    width: 40rem;
   }
 }
