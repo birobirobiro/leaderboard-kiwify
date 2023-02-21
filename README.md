@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="" src=".github/preview.jpg" width="100%">
+  <img alt="" src=".github/thumbnail.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
