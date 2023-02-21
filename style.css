@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Mukta Mahee', sans-serif;
+
+  background: hsl(120, 100%, 5%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+
+  color: #F1F1F1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header img {
+  width: 20rem;
+}
+
+.container,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.podium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-top: 5rem;
+}
+
+main ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+}
+
+main li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.15rem;
+  margin: 3.5rem;
+}
+
+main li img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  padding: 0.1rem;
+  border: 0.2rem solid #03B169;
+  transition: scale 0.3s;
+}
+
+main li img:hover {
+  scale: 1.05;
+}
+
+main li:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 8.5rem;
+  height: 8.5rem;
+  z-index: 200;
+  margin: unset;
+}
+
+main li p {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+main li span {
+  font-size: 1rem;
+}
+
+main #crown {
+  width: 3rem;
+  height: 3rem;
+  border: unset;
+  padding: unset;
+}
+
+main .revenue {
+  color: #03B169;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+section span {
+  padding-bottom: 0.5rem;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+section li {
+  display: flex;
+  background-color: #112f27;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 1rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+section li div {
+  display: flex;
+  width: 100%;
+  opacity: 0.8;
+}
+
+section li span:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+section li img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+section li p {
+  text-align: center;
+  min-width: 10rem;
+  font-size: 0.75rem;
+}
+
+section li span:last-child {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #03B169;
+}
+
+@media (max-width: 20rem) {
+  .container main {
+    margin: unset;
+  }
+
+  header img {
+    width: 15rem;
+  }
+
+  main {
+    padding-bottom: 2.5rem;
+  }
+
+  main li {
+    margin: 0;
+    padding: 0 4rem;
+    display: flex;
+  }
+
+  main li img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  main li:nth-child(2) {
+    top: -1.5rem;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 6rem;
+    height: 6rem;
+  }
+}
