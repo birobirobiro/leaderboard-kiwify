@@ -10,7 +10,7 @@ function getFormattedRevenue(revenue) {
 }
 
 const fetchData = () => {
-  fetch('https://cors-everywhere.onrender.com/https://api.kiwify.com.br/v1/open/competition-ranking')
+  fetch('https://corsanywhere.herokuapp.com/https://api.kiwify.com.br/v1/open/competition-ranking')
     .then(response => response.json())
     .then(data => {
       data = JSON.parse(data);

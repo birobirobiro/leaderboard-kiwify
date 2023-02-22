@@ -55,7 +55,6 @@ main ul {
   align-items: center;
   justify-content: center;
   list-style: none;
-  width: 100%;
   position: relative;
 }
 
@@ -66,7 +65,7 @@ main li {
   justify-content: center;
   text-align: center;
   gap: 0.15rem;
-  margin: 5rem;
+  margin: min(30%, 5rem);
 }
 
 main li img {
@@ -136,7 +135,7 @@ section ul {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-  width: 25rem;
+  width: min(22rem, 25rem);
 }
 
 section li {
@@ -181,7 +180,8 @@ section li span:last-child {
 
 @media (min-width: 600px) {
   section ul {
-    width: 40rem;
+    width: 100%;
+
   }
 
   section li img {
