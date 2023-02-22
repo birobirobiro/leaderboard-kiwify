@@ -9,6 +9,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- [AOS](https://lnkd.in/d43vEajg)
+- [SVGArtista](https://svgartista.net/)
+- [This Person Does Not Exist](https://this-person-does-not-exist.com/pt)
 
 ## 🚧 Projeto:
 
