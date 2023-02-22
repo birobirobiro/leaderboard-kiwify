@@ -82,7 +82,7 @@ main li img:hover {
   scale: 1.05;
 }
 
-main li:nth-child(2) {
+main li:nth-child(1) {
   position: absolute;
   top: 0;
   left: 50%;
